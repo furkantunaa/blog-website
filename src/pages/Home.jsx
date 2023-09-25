@@ -1,10 +1,6 @@
 import Layout from "../components/Layout";
 import Header from "../components/Header";
 import Container from "../components/Container";
-import image3 from "../assets/person.webp";
-import image4 from "../assets/marketing.webp";
-import image5 from "../assets/ikinci resim.jpeg";
-import image6 from "../assets/üçüncüresim.webp";
 import { useEffect, useState } from "react";
 import { instance } from "../utils/api";
 import { useNavigate, useSearchParams } from "react-router-dom";

@@ -1,8 +1,4 @@
 import Layout from "../components/Layout";
-import image3 from "../assets/person.webp";
-import image4 from "../assets/marketing.webp";
-import image5 from "../assets/ikinci resim.jpeg";
-import image6 from "../assets/üçüncüresim.webp";
 import { useEffect, useState } from "react";
 import { instance } from "../utils/api";
 import { useNavigate, useSearchParams } from "react-router-dom";
@@ -38,7 +34,7 @@ const Posts = () => {
 
   return (
     <Layout>
-      <div className="flex items-center justify-center flex-row pr-5 mt-10 mb-14">
+      <div className="flex items-center justify-center flex-row pr-5 mt-10 mb-14 max-w-[640px] mx-auto">
         <input
           value={searchPostValue}
           onChange={(e) => setSearchPostValue(e.target.value)}

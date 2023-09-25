@@ -1,6 +1,3 @@
-import image from "../assets/ekmek.webp";
-import image1 from "../assets/bilgisayar.webp";
-import image2 from "../assets/resim.webp";
 import SmallCard from "./SmallCard";
 import { useEffect, useState } from "react";
 import { instance } from "../utils/api";
